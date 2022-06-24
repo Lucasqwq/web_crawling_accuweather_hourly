@@ -16,7 +16,7 @@ jobs:
     - uses: actions/setup-python@v3 
     - name: generate keys
       run: |
-        echo -n '${{ secrets.FIREBASE2_KEY }}' > firebase_key.json
+        echo -n '${{ secrets.FIREBASE3_KEY }}' > firebase_key.json
         echo -n '${{ secrets.API_KEY }}' > apikey.txt
     - name: upgrade pip
       run: |
